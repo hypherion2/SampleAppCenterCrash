@@ -9,4 +9,6 @@ Simple app to send a crash report to AppCenter
 5. Restart app to send the crash report.
 
 # Notes
-Log file is created in the user's Documents folder.
+- NSLog output is sent to a log file Log.txt in the user's Documents folder
+- Uses AppCenter SDK 2.2.0
+- Tested with XCode 10.3
