@@ -7,6 +7,7 @@ Simple app to send a crash report to AppCenter
 3. Build app, then run outside of Xcode debugger.
 4. Click button to force a crash.
 5. Restart app to send the crash report.
+6. Create .zip archive with the contents of the dSym file in the output directory and upload to AppCenter for symbolication.
 
 # Notes
 - NSLog output is sent to a log file Log.txt in the user's Documents folder
